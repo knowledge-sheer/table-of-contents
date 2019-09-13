@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Table Of Contents</title>
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+
+	<style>
+		nav[data-toggle="toc"] {
+			top: 42px;
+		}
+
+		/* small screens */
+		@media (max-width: 768px) {
+			/* override stickyness so that the navigation does not follow scrolling */
+			nav[data-toggle="toc"] {
+				margin-bottom: 42px;
+				position: static;
+			}
+
+			/* PICK ONE */
+			/* don't expand nested items, which pushes down the rest of the page when navigating */
+			/*nav[data-toggle="toc"] .nav .active .nav {
+				display: none;
+			}*/
+			/* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+			
+			nav[data-toggle='toc'] .nav .nav {
+			display: block;
+			}
+			
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 mx-auto" id="toc-container">
+				<h2>Heading 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 6</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 7</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 8</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+				<h2>Heading 9</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ligula diam. Duis cursus libero vitae nisl lacinia, eu lacinia leo lobortis. Nunc auctor, dui sit amet ullamcorper bibendum, nulla lectus malesuada lorem, sit amet placerat quam odio eget orci. Donec nulla urna, vulputate sed lectus sed, pharetra elementum neque. Praesent lacinia felis risus, in ultrices dolor vestibulum quis. Integer ornare at ipsum ac varius. Fusce odio elit, varius quis arcu nec, volutpat dapibus nunc.</p>
+			</div>
+			<div class="col-md-3">
+				<div class="sticky-top">
+					<h5>Table of Contents</h5>
+					<nav id="toc"></nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Table Of Content -->
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+<script>
+
+$(function() {
+  var navSelector = "#toc";
+  var $myNav = $(navSelector);
+  Toc.init($myNav);
+  $("body").scrollspy({
+    target: navSelector
+  });
+});
+
+</script>
+</body>
+</html>
